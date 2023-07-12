@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+      <children>
+
+
+          <Label layoutY="4.0" text="IP Address:" />
+
+          <Label layoutY="36.0" text="Port:" />
+
+          <Button fx:id="startButton" layoutY="64.0" onAction="#startServer" text="Start Server" />
+          <Button layoutX="82.0" layoutY="64.0" onAction="#connectToServer" text="Connect" />
+      <Label layoutX="2.0" layoutY="100.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="82.0" layoutY="100.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="148.0" layoutY="100.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutY="132.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="83.0" layoutY="132.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="148.0" layoutY="132.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutY="164.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="82.0" layoutY="164.0" prefHeight="14.0" prefWidth="14.0" />
+      <Label layoutX="148.0" layoutY="164.0" prefHeight="14.0" prefWidth="14.0" />
+
+          <Button fx:id="button1" layoutY="96.0" onAction="#Move" />
+          <Button fx:id="button2" layoutX="82.0" layoutY="96.0" onAction="#Move" />
+          <Button fx:id="button3" layoutX="148.0" layoutY="96.0" onAction="#Move" />
+          <Button fx:id="button4" layoutY="128.0" onAction="#Move" />
+          <Button fx:id="button5" layoutX="82.0" layoutY="128.0" onAction="#Move" />
+          <Button fx:id="button6" layoutX="148.0" layoutY="128.0" onAction="#Move" />
+          <Button fx:id="button7" layoutY="160.0" onAction="#Move" />
+          <Button fx:id="button8" layoutX="82.0" layoutY="160.0" onAction="#Move" />
+          <Button fx:id="button9" layoutX="148.0" layoutY="160.0" onAction="#Move" />
+         <TextField fx:id="portField" layoutX="82.0" layoutY="32.0" />
+         <TextField fx:id="ipAddressField" layoutX="82.0" />
+      </children>
+   </AnchorPane>
